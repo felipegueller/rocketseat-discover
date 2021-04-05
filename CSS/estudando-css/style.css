@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+
+* {
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.box-model {
+    border: 2px solid green;
+    margin: 40px;
+    padding: 20px;
+    width: 200px;
+}
