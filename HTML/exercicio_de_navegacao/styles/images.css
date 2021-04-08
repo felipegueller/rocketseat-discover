@@ -2,7 +2,14 @@ body {
     margin: 0;
     padding: 0;
 
-    background: #121214;
+    background-image: url(../images/galaxia02.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    /* background-color: #121214; */
     color: #ffffff;
 }
 
@@ -14,6 +21,7 @@ body {
     min-width: 500px;
     width: 100vw;
     height: 100vh;
+    background-color: #121214;
     
     display: flex;
     flex-direction: column;
@@ -63,15 +71,37 @@ body {
 
 .content {
     margin: 0 auto;
+    padding: 0 2.5%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.pictures {
+.content h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #783eff;
+}
+
+.content .pictures {
+    margin: 0;
+    padding: 0;
+
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.pictures figure img {
-    width:400;
-    height: 360;
+
+.content .pictures figure img {
+    width: 380px;
+    height: 320px;
 }
 
+.content .pictures figure figcaption {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 0.9em;
+}
