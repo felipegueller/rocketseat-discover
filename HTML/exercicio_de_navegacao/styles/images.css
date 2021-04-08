@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    background: #121214;
+    color: #ffffff;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0;
+
+    max-width: 980px;
+    min-width: 500px;
+    width: 100vw;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-navegacao {
+    background-color: #ffffff21;
+    margin: 0;
+    padding: 0 5.5%;
+    max-height: 80px;
+
+    display: flex; /* Determiando que o contéudo desse container é flex*/
+    justify-content: flex-end; /* Alinhando o conteúdo no main-axis no final */
+    align-items: center;
+}
+
+.menu-navegacao ul {
+    list-style: none; /* Tira as bolinhas da lista não ordenada*/
+    margin: 0;
+    display: flex; 
+    flex-direction: row; /* Os LIs ficam em linha / direção padrão é row */
+}
+
+ .menu-navegacao ul li {
+    margin-left: 10px;
+    height: 70px;
+    border-bottom: 3px solid #783eff00;
+    
+    display: flex;
+    align-items: center;
+} 
+
+.menu-navegacao ul li:hover {
+    border-bottom: 3px solid #783eff;
+}
+
+.menu-navegacao ul li a {
+    text-decoration: none;
+    color: #9466ff;
+    font-family: 'Dela Gothic One', cursive;
+    font-size: 1em;
+}
+
+.menu-navegacao ul li a:hover {
+    color: #783eff; 
+}
+
+.content {
+    margin: 0 auto;
+}
+
+.pictures {
+    display: flex;
+    flex-direction: row;
+}
+
+.pictures figure img {
+    width:400;
+    height: 360;
+}
+
