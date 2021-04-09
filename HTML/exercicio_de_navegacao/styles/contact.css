@@ -125,6 +125,7 @@ body {
 .btn-email {
     background-color: var(--color-primary-email);
     color: #fff;
+    padding: 10px 35px;
 }
 
 .btn-email:hover {
