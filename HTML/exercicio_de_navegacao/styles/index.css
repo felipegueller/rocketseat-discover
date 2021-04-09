@@ -77,6 +77,16 @@ body {
     overflow: auto;
 }
 
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.596);
+    border-radius: 50px;
+}
+
 .content h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
